@@ -40,6 +40,6 @@ var destructivelyRemoveElementFromEndOfArray = (array) => {
 }
 
 var removeElementFromEndOfArray = (array) => {
-  var removeEnding = array.slice(-1);
+  var removeEnding = array.slice(0, array.length - 1);
   return removeEnding;
 }
