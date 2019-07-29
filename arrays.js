@@ -10,7 +10,3 @@ var destructivelyAddElementToBeginningOfArray = (array, element) => {
   return array;
 }
 
-var addElementToEndOfArray = (array, element) => {
-  var newArray = [array..., element];
-  return newArray;
-}
