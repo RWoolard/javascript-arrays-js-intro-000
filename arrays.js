@@ -13,5 +13,3 @@ var addElementToEndOfArray = (array, element) => {
   var newArray = [array, ...element];
   return newArray;
 }
-
-
